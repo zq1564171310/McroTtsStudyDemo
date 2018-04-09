@@ -1,0 +1,1 @@
+c:\users\zhangqi\Source\Repos\UWP_Mircrosotf_TextToSpeek\UWP_Mircrosotf_TextToSpeek\UWP_Mircrosotf_TextToSpeek.csproj;x86

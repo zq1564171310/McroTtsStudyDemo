@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="UWP_Mircrosotf_Speek.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP_Mircrosotf_Speek"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="800" Height="800">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Name="start" Width="180" Height="50" Content="Start" Click="RecognizeWithUIDictationGrammar_Click"></Button>
+        <Button Name="end" Width="180" Height="50" Content="End" Margin="0,430,0,320"></Button>
+        <TextBlock Name="resultTextBlock" Text="没有内容！" Width="200" Height="50" FontSize="30" Margin="10,0,0,0" VerticalAlignment="Center"/>
+    </Grid>
+</Page>
